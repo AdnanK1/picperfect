@@ -25,6 +25,6 @@ class Image(models.Model):
     class Meta:
         ordering = ['-updated','-created']
 
-    def __repr__(self):
+    def __str__(self):
         return self.name
 
