@@ -5,6 +5,7 @@
 <div class="container">
     <h1>Home</h1>
         <div class="row">
+            {% if images %}
             {% for image in images %}
             <div class="col-sm-4" >
                 <img src="{{image.image.url}}" data-bs-toggle='modal' data-bs-target="#previewModal{{image.id}}" alt="Image" height="400px" width="420px">
@@ -43,9 +44,13 @@
             </div>
             </div>
             {% endfor %}
+            {% else %}
+            <div class="container">
+                <h3>
+                    no images have been uploaded
+                </h3>
+            </div>
+            {% endif %}
         </div>  
-</div>
-
-  
-              
+</div>           
 {% endblock %}
