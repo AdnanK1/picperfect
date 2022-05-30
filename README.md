@@ -1,13 +1,16 @@
 # PICPERFECT
 Picperfect is a photo/photo sharing programme that allows users to share what they enjoy with others.
 
-# User R
+# User Requirements
 The users are targeted to:
 * View the different photos that interest them
 * Click ona single photo snd expand it to view the details of the photo The photo details as well must appear on a modal within the same route of the main page
 * Search for different categories of photos
 * Copy a link to the photo to share with friends
 * View photos based on the location they were taken.
+
+# Live Link
+> This is the link to use to view the application: https://django-picperfect.herokuapp.com/
 
 # Behavior Driven Development
 <table>
